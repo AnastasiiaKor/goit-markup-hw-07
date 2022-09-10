@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: $main-light-color;
+  color: $main-color;
+  letter-spacing: $primary-letter-spacing;
+  font-family: $primaty-font-family;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: inherit;
+}

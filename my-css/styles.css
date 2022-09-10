@@ -7,7 +7,7 @@
 /*  акцент #2196F3 */
 /* roboto 400 700 */
 
-:root {
+/* :root {
   --main-background-color: #ffffff;
   --footer-backgroung-color: #2f303a;
   --main-color: #757575;
@@ -15,33 +15,33 @@
   --accent-color: #2196f3;
   --list-gap: 30px;
   --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* basic styles */
-html {
+/* html {
   box-sizing: border-box;
-}
+} */
 
-body {
+/* body {
   background-color: var(--main-background-color);
   color: var(--main-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-}
-h1,
+} */
+/* h1,
 h2,
 h3,
 p,
 ul {
   margin: 0;
   padding-left: 0;
-}
-.container {
+} */
+/* .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-}
+} */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -51,7 +51,7 @@ ul {
 }
 .link {
   text-decoration: inherit;
-}
+} */
 
 /* header styles */
 
@@ -157,7 +157,7 @@ ul {
   fill: currentColor;
 }
 /* main styles */
-.visually-hidden {
+/* .title--visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -168,7 +168,7 @@ ul {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
 .title {
   text-align: center;
@@ -438,7 +438,7 @@ ul {
   text-decoration: inherit;
   color: inherit;
 }
-.work-example .subtitle,
+
 .hero-title,
 .hero-button {
   letter-spacing: 0.06em;
@@ -638,15 +638,15 @@ ul {
   fill: var(--accent-color);
 }
 
-.sorter {
+/* .sorter {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 34px;
   padding-left: 0;
   display: flex;
   justify-content: center;
-}
-.sorter .button {
+} */
+/* .sorter__button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -660,58 +660,58 @@ ul {
   transition: color 250ms var(--transition-timing-function),
     background-color 250ms var(--transition-timing-function),
     box-shadow 250ms var(--transition-timing-function);
-}
-.sorter .button:hover,
-.sorter .button:focus {
+} */
+/* .sorter__button :hover,
+.sorter__button :focus {
   color: var(--main-background-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.button.active {
+.sorter__button--active {
   color: var(--main-background-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.sorter .item:not(:last-child) {
+.sorter__item:not(:last-child) {
   margin-right: 8px;
-}
+} */
 
-.work-example .subtitle {
+/* .work-example .subtitle {
   font-size: 18px;
   line-height: 2;
-}
+} */
 
-.work-example > .example-item {
+/* .card-list__item {
   margin-top: var(--list-gap);
   margin-left: var(--list-gap);
   flex-basis: calc(100% / 3 - var(--list-gap));
-}
-.example {
+} */
+/* .card {
   overflow: hidden;
   display: block;
   transition: box-shadow 250ms var(--transition-timing-function);
-}
-.example:hover,
-.example:focus {
+} */
+/* .card:hover,
+.card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
-.work-example .text {
+/* .work-example .text {
   font-size: 16px;
   line-height: 1.88;
-}
+} */
 
-.example .thumb {
+/* .card__thumb {
   position: relative;
   display: block;
   width: 100%;
   overflow: hidden;
-}
+} */
 
-.example-overlay {
+/* .card-overlay {
   position: absolute;
   top: 100%;
   left: 0;
@@ -721,40 +721,40 @@ ul {
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);
   transition: transform 250ms var(--transition-timing-function);
-}
-.overlay-text {
+} */
+/* .card-overlay__text {
   font-size: 18px;
   line-height: 1.56;
   color: rgba(255, 255, 255, 1);
-}
+} */
 
-.example:hover .example-overlay,
-.example:focus .example-overlay {
+/* .card:hover .card-overlay,
+.card:focus .card-overlay {
   transform: translateY(-100%);
-}
+} */
 
-.list.work-example {
+/* .card-list {
   padding-left: 0;
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--list-gap));
   margin-left: calc(-1 * var(--list-gap));
-}
+} */
 
-.image {
+/* .card__image {
   display: block;
   max-width: 100%;
-}
-.work-example .subtitle {
+} */
+/* .work-example .subtitle {
   margin-bottom: 4px;
-}
+} */
 
-.example-description {
+/* .example-description {
   padding: 20px 24px;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-}
+} */
 /* footer styles */
 .page-footer {
   padding-top: 60px;

@@ -5,25 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
   </head>
   <body>
     <header class="page-header">
       <div class="container">
         <nav class="header-nav">
-          <a class="link logo" href="./index.html ">
-            <span class="logo-start">Web</span>Studio</a
-          >
+          <a class="link logo" href="./index.html "> <span class="logo-start">Web</span>Studio</a>
           <ul class="list site-nav">
             <li class="item"><a class="link" href="./index.html">Студія</a></li>
             <li class="item">
@@ -36,9 +25,7 @@
           <li class="item">
             <a class="link" href="mailto:info@devstudio.com">
               <svg width="16" height="12" class="envelope">
-                <use
-                  href="./images/icons.svg/symbol-defs.svg#icon-envelope"
-                ></use>
+                <use href="./images/icons.svg/symbol-defs.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
@@ -54,264 +41,258 @@
         </ul>
       </div>
     </header>
+
+    <!-- Main -->
+
     <main>
       <section class="section">
         <div class="container">
-          <h1 class="title visually-hidden">Приклади робiт</h1>
+          <h1 class="title title--visually-hidden">Приклади робiт</h1>
           <!-- h1 will be hidden with the help of css -->
           <ul class="list sorter">
-            <li class="item">
-              <button type="button" class="button active">Усі</button>
+            <li class="sorter__item">
+              <button type="button" class="button list-sorter__button list-sorter__button--active">
+                Усі
+              </button>
             </li>
-            <li class="item">
-              <button type="button" class="button">Веб-сайти</button>
+            <li class="sorter__item">
+              <button type="button" class="button list-sorter__button">Веб-сайти</button>
             </li>
-            <li class="item">
-              <button type="button" class="button">Додатки</button>
+            <li class="sorter__item">
+              <button type="button" class="button list-sorter__button">Додатки</button>
             </li>
-            <li class="item">
-              <button type="button" class="button">Дизайн</button>
+            <li class="sorter__item">
+              <button type="button" class="button list-sorter__button">Дизайн</button>
             </li>
-            <li class="item">
-              <button type="button" class="button">Маркетинг</button>
+            <li class="sorter__item">
+              <button type="button" class="button list-sorter__button">Маркетинг</button>
             </li>
           </ul>
-          <ul class="list work-example">
-            <li class="example-item">
-              <a href="" class="example">
-                <div class="thumb">
+          <ul class="list card-list">
+            <li class="card-list__item">
+              <a href="" class="card">
+                <div class="card__thumb">
                   <img
-                    class="image"
+                    class="card__image"
                     src="./images/portfolio-pics/img-1.jpg"
                     alt="Ноутбук"
                     width="370"
                     height="294"
                   />
-                  <div class="example-overlay">
-                    <p class="overlay-text">
-                      Ресурс пропонує комплексні пропозиції з різним рівнем
-                      функціоналу та сервісів. Все це дозволить відвідувачу
-                      отримати вичерпні відомості про компанію чи приватну
-                      особу.
+                  <div class="card__overlay">
+                    <p class="card__overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
                     </p>
                   </div>
                 </div>
 
-                <div class="example-description">
-                  <h2 class="subtitle">Технокряк</h2>
-                  <p class="text">Веб-сайт</p>
+                <div class="card__description">
+                  <h2 class="card__title">Технокряк</h2>
+                  <p class="card__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="example-item">
-              <a href="" class="example">
-                <div class="thumb">
+            <li class="card-list__item">
+              <a href="" class="card">
+                <div class="card__thumb">
                   <img
-                    class="image"
+                    class="card__image"
                     src="./images/portfolio-pics/img-2.jpg"
                     alt="Баскетбол"
                     width="370"
                     height="294"
                   />
-                  <div class="example-overlay">
-                    <p class="overlay-text">
-                      Ресурс пропонує комплексні пропозиції з різним рівнем
-                      функціоналу та сервісів. Все це дозволить відвідувачу
-                      отримати вичерпні відомості про компанію чи приватну
-                      особу.
+                  <div class="card__overlay">
+                    <p class="card__overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
                     </p>
                   </div>
                 </div>
 
-                <div class="example-description">
-                  <h2 class="subtitle">
+                <div class="card__description">
+                  <h2 class="card__title">
                     Постер <span lang="en">New Orlean vs Golden Star</span>
                   </h2>
-                  <p class="text">Дизайн</p>
+                  <p class="card__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="example-item">
-              <a href="" class="example">
-                <div class="thumb">
+            <li class="card-list__item">
+              <a href="" class="card">
+                <div class="card__thumb">
                   <img
-                    class="image"
+                    class="card__image"
                     src="./images/portfolio-pics/img-3.jpg"
                     alt="Риба"
                     width="370"
                     height="294"
                   />
-                  <div class="example-overlay">
-                    <p class="overlay-text">
-                      Ресурс пропонує комплексні пропозиції з різним рівнем
-                      функціоналу та сервісів. Все це дозволить відвідувачу
-                      отримати вичерпні відомості про компанію чи приватну
-                      особу.
+                  <div class="card__overlay">
+                    <p class="card__overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
                     </p>
                   </div>
                 </div>
 
-                <div class="example-description">
-                  <h2 class="subtitle">
-                    Ресторан <span lang="en">Seafood</span>
-                  </h2>
-                  <p class="text">Додаток</p>
+                <div class="card__description">
+                  <h2 class="card__title">Ресторан <span lang="en">Seafood</span></h2>
+                  <p class="card__text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="example-item">
-              <a href="" class="example">
-                <div class="thumb">
+            <li class="card-list__item">
+              <a href="" class="card">
+                <div class="card__thumb">
                   <img
-                    class="image"
+                    class="card__image"
                     src="./images/portfolio-pics/img-4.jpg"
                     alt="Навушники"
                     width="370"
                     height="294"
                   />
-                  <div class="example-overlay">
-                    <p class="overlay-text">
-                      Ресурс пропонує комплексні пропозиції з різним рівнем
-                      функціоналу та сервісів. Все це дозволить відвідувачу
-                      отримати вичерпні відомості про компанію чи приватну
-                      особу.
+                  <div class="card__overlay">
+                    <p class="card__overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
                     </p>
                   </div>
                 </div>
 
-                <div class="example-description">
-                  <h2 class="subtitle">Проєкт <span lang="en">Prime</span></h2>
-                  <p class="text">Маркетинг</p>
+                <div class="card__description">
+                  <h2 class="card__title">Проєкт <span lang="en">Prime</span></h2>
+                  <p class="card__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="example-item">
-              <a href="" class="example">
-                <div class="thumb">
+            <li class="card-list__item">
+              <a href="" class="card">
+                <div class="card__thumb">
                   <img
-                    class="image"
+                    class="card__image"
                     src="./images/portfolio-pics/img-5.jpg"
                     alt="Дві коробки"
                     width="370"
                     height="294"
                   />
-                  <div class="example-overlay">
-                    <p class="overlay-text">
-                      Ресурс пропонує комплексні пропозиції з різним рівнем
-                      функціоналу та сервісів. Все це дозволить відвідувачу
-                      отримати вичерпні відомості про компанію чи приватну
-                      особу.
+                  <div class="card__overlay">
+                    <p class="card__overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
                     </p>
                   </div>
                 </div>
 
-                <div class="example-description">
-                  <h2 class="subtitle">Проєкт <span lang="en">Boxes </span></h2>
-                  <p class="text">Додаток</p>
+                <div class="card__description">
+                  <h2 class="card__title">Проєкт <span lang="en">Boxes </span></h2>
+                  <p class="card__text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="example-item">
-              <a href="" class="example">
-                <div class="thumb">
+            <li class="card-list__item">
+              <a href="" class="card">
+                <div class="card__thumb">
                   <img
-                    class="image"
+                    class="card__image"
                     src="./images/portfolio-pics/img-6.jpg"
                     alt="Монітор iMac"
                     width="370"
                     height="294"
                   />
-                  <div class="example-overlay">
-                    <p class="overlay-text">
-                      Ресурс пропонує комплексні пропозиції з різним рівнем
-                      функціоналу та сервісів. Все це дозволить відвідувачу
-                      отримати вичерпні відомості про компанію чи приватну
-                      особу.
+                  <div class="card__overlay">
+                    <p class="card__overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
                     </p>
                   </div>
                 </div>
 
-                <div class="example-description">
-                  <h2 class="subtitle" lang="en">Inspiration has no Borders</h2>
-                  <p class="text">Веб-сайт</p>
+                <div class="card__description">
+                  <h2 class="card__title" lang="en">Inspiration has no Borders</h2>
+                  <p class="card__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="example-item">
-              <a href="" class="example">
-                <div class="thumb">
+            <li class="card-list__item">
+              <a href="" class="card">
+                <div class="card__thumb">
                   <img
-                    class="image"
+                    class="card__image"
                     src="./images/portfolio-pics/img-7.jpg"
                     alt="Журнал"
                     width="370"
                     height="294"
                   />
-                  <div class="example-overlay">
-                    <p class="overlay-text">
-                      Ресурс пропонує комплексні пропозиції з різним рівнем
-                      функціоналу та сервісів. Все це дозволить відвідувачу
-                      отримати вичерпні відомості про компанію чи приватну
-                      особу.
+                  <div class="card__overlay">
+                    <p class="card__overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
                     </p>
                   </div>
                 </div>
 
-                <div class="example-description">
-                  <h2 class="subtitle">Видання <span>Limited Edition</span></h2>
-                  <p class="text">Дизайн</p>
+                <div class="card__description">
+                  <h2 class="card__title">Видання <span>Limited Edition</span></h2>
+                  <p class="card__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="example-item">
-              <a href="" class="example">
-                <div class="thumb">
+            <li class="card-list__item">
+              <a href="" class="card">
+                <div class="card__thumb">
                   <img
-                    class="image"
+                    class="card__image"
                     src="./images/portfolio-pics/img-8.jpg"
                     alt="Бірка"
                     width="370"
                     height="294"
                   />
-                  <div class="example-overlay">
-                    <p class="overlay-text">
-                      Ресурс пропонує комплексні пропозиції з різним рівнем
-                      функціоналу та сервісів. Все це дозволить відвідувачу
-                      отримати вичерпні відомості про компанію чи приватну
-                      особу.
+                  <div class="card__overlay">
+                    <p class="card__overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
                     </p>
                   </div>
                 </div>
 
-                <div class="example-description">
-                  <h2 class="subtitle">Проєкт <span lang="en">LAB</span></h2>
-                  <p class="text">Маркетинг</p>
+                <div class="card__description">
+                  <h2 class="card__title">Проєкт <span lang="en">LAB</span></h2>
+                  <p class="card__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="example-item">
-              <a href="" class="example">
-                <div class="thumb">
+            <li class="card-list__item">
+              <a href="" class="card">
+                <div class="card__thumb">
                   <img
-                    class="image"
+                    class="card__image"
                     src="./images/portfolio-pics/img-9.jpg"
                     alt="Руки на ноутбуці"
                     width="370"
                     height="294"
                   />
-                  <div class="example-overlay">
-                    <p class="overlay-text">
-                      Ресурс пропонує комплексні пропозиції з різним рівнем
-                      функціоналу та сервісів. Все це дозволить відвідувачу
-                      отримати вичерпні відомості про компанію чи приватну
-                      особу.
+                  <div class="card__overlay">
+                    <p class="card__overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
                     </p>
                   </div>
                 </div>
 
-                <div class="example-description">
-                  <h2 class="subtitle" lang="en">Growing Business</h2>
-                  <p class="text">Додаток</p>
+                <div class="card__description">
+                  <h2 class="card__title" lang="en">Growing Business</h2>
+                  <p class="card__text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -319,12 +300,12 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="page-footer">
       <div class="container">
         <div>
           <a class="link logo" href="./index.html"
-            ><span class="logo-start">Web</span
-            ><span class="logo-end">Studio</span></a
+            ><span class="logo-start">Web</span><span class="logo-end">Studio</span></a
           >
           <address class="address-nav">
             <ul class="list">
@@ -339,14 +320,10 @@
                 >
               </li>
               <li class="item">
-                <a class="link contact" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
+                <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
               <li class="item">
-                <a class="link contact" href="tel:+380991111111"
-                  >+38 099 111 11 11</a
-                >
+                <a class="link contact" href="tel:+380991111111">+38 099 111 11 11</a>
               </li>
             </ul>
           </address>
@@ -358,36 +335,28 @@
             <li class="item">
               <a href="" class="link">
                 <svg class="social-links-logo">
-                  <use
-                    href="./images/icons.svg/symbol-defs.svg#icon-instagram"
-                  ></use>
+                  <use href="./images/icons.svg/symbol-defs.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
               <a href="" class="link">
                 <svg class="social-links-logo">
-                  <use
-                    href="./images/icons.svg/symbol-defs.svg#icon-twitter"
-                  ></use>
+                  <use href="./images/icons.svg/symbol-defs.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
               <a href="" class="link">
                 <svg class="social-links-logo">
-                  <use
-                    href="./images/icons.svg/symbol-defs.svg#icon-facebook"
-                  ></use>
+                  <use href="./images/icons.svg/symbol-defs.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
               <a href="" class="link">
                 <svg class="social-links-logo">
-                  <use
-                    href="./images/icons.svg/symbol-defs.svg#icon-linkedin"
-                  ></use>
+                  <use href="./images/icons.svg/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
