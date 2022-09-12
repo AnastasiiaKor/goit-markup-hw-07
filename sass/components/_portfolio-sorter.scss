@@ -10,16 +10,15 @@
   margin-right: 8px;
 }
 .list-sorter__button {
-  font-family: $primaty-font-family;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  letter-spacing: $primary-letter-spacing;
   background: #f5f4fa;
   padding: 6px 22px;
   border-radius: 4px;
   text-align: center;
   border: none;
+  cursor: pointer;
   transition: color 250ms $transition-timing-function,
     background-color 250ms $transition-timing-function, box-shadow 250ms $transition-timing-function;
 

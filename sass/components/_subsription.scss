@@ -5,8 +5,6 @@
   margin-left: auto;
 }
 .subscribtion__title {
-  font-family: $primaty-font-family;
-  letter-spacing: $primary-letter-spacing;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -29,7 +27,6 @@
   color: $main-light-color;
 
   &::placeholder {
-    font-family: $primaty-font-family;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
@@ -43,11 +40,9 @@
   align-items: center;
 
   padding: 10px 28px;
-  font-family: $primaty-font-family;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: $primary-letter-spacing;
   color: $main-light-color;
   background-color: $accent-color;
   border-radius: 4px;

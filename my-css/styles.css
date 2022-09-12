@@ -451,30 +451,30 @@ ul {
 .specialization.section {
   padding-top: 0;
 }
-.advantages .subtitle {
+/* .advantages .subtitle {
   font-size: 14px;
   line-height: 1.42;
   text-transform: uppercase;
-}
-.advantages .text {
+} */
+/* .advantages .text {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-}
+} */
 
-.advantages .list {
+/* .advantages .list {
   display: flex;
   margin-left: calc(-1 * var(--list-gap));
-}
+} */
 
-.box .subtitle {
+/* .box .subtitle {
   margin-top: 30px;
   margin-bottom: 10px;
-}
-.box {
+} */
+/* .box {
   margin-left: var(--list-gap);
   flex-basis: calc(100% / 4 - var(--list-gap));
-}
+} */
 .thumb {
   position: relative;
 }
@@ -497,17 +497,17 @@ ul {
   display: flex;
   margin-left: calc(-1 * var(--list-gap));
 }
-.specialization .item {
+/* .specialization .item {
   margin-left: var(--list-gap);
   flex-basis: calc(100% / 3 - var(--list-gap));
-}
+} */
 
 .specialization .title,
 .team .title,
 .clients .title {
   margin-bottom: 50px;
 }
-.advantages .box:before {
+/* .advantages .box:before {
   content: '';
   display: block;
   height: 120px;
@@ -515,7 +515,7 @@ ul {
   background-color: #f5f4fa;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 .icon-antenna:before {
   background-image: url(../images/icons/antenna\ 1.svg);
@@ -601,21 +601,21 @@ ul {
   fill: var(--main-background-color);
 } */
 
-.clients-list {
+/* .clients-list {
   display: flex;
   gap: var(--list-gap);
-}
-.clients-list .item {
+} */
+/* .clients-list .item {
   flex-basis: calc((100% - 150px) / 6);
-}
-.clients-logo {
+} */
+/* .clients-logo {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
   transition: fill 250ms var(--transition-timing-function);
-}
+} */
 
-.clients .link {
+/* .clients .link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -624,19 +624,19 @@ ul {
   border-radius: 4px;
   cursor: pointer;
   transition: border 250ms var(--transition-timing-function);
-}
+} */
 
-.clients-list .link:hover,
+/* .clients-list .link:hover,
 .clients-list .link:focus {
   border: 1px solid var(--accent-color);
-}
+} */
 
-.clients-list .link:hover .clients-logo {
+/* .clients-list .link:hover .clients-logo {
   fill: var(--accent-color);
 }
 .clients-list .link:focus .clients-logo {
   fill: var(--accent-color);
-}
+} */
 
 /* .sorter {
   margin-left: auto;
