@@ -1,4 +1,5 @@
 .address__list {
+  @extend %list;
   font-style: normal;
   font-family: $primaty-font-family;
 }
@@ -8,6 +9,7 @@
 .address__map {
   display: inline-block;
 
+  @extend %link;
   font-size: 14px;
   line-height: 1.71;
   color: $main-light-color;
@@ -19,6 +21,7 @@
   }
 }
 .address__contact {
+  @extend %link;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);

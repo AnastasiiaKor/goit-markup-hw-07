@@ -11,6 +11,7 @@
 .team__list {
   display: flex;
   margin-left: calc(-1 * #{$list-gap});
+  @extend %list;
 }
 .member-card {
   margin-left: $list-gap;

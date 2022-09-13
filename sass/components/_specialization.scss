@@ -12,6 +12,7 @@
 .specialization__list {
   display: flex;
   margin-left: calc(-1 * #{$list-gap});
+  @extend %list;
 }
 .specialization__item {
   margin-left: $list-gap;

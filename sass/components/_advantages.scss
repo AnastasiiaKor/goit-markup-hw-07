@@ -5,6 +5,7 @@
 .advantages__list {
   display: flex;
   margin-left: calc(-1 * #{$list-gap});
+  @extend %list;
 }
 
 .advantages__item {

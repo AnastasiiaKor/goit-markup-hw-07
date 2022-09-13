@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio Portfolio</title>
 
-    <link rel="stylesheet" href="./dist/css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="page-header">
@@ -15,19 +15,21 @@
           <a class="logo logo--primary" href="./index.html ">
             <span class="logo logo--blue">Web</span>Studio</a
           >
-          <ul class="list navigation__list">
+          <ul class="navigation__list">
             <li class="navigation__item">
-              <a class="link navigation__link" href="./index.html">Студія</a>
+              <a class="navigation__link" href="./index.html">Студія</a>
             </li>
             <li class="navigation__item">
-              <a class="link link--current navigation__link" href="./portfolio.html">Портфоліо</a>
+              <a class="navigation__link navigation__link--current" href="./portfolio.html"
+                >Портфоліо</a
+              >
             </li>
-            <li class="navigation__item"><a class="link navigation__link" href="">Контакти</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="list contacts__list">
+        <ul class="contacts__list">
           <li class="contacts__item">
-            <a class="link contacts__link" href="mailto:info@devstudio.com">
+            <a class="contacts__link" href="mailto:info@devstudio.com">
               <svg width="16" height="12" class="contacts__icon">
                 <use href="./images/icons.svg/symbol-defs.svg#icon-envelope"></use>
               </svg>
@@ -35,7 +37,7 @@
             >
           </li>
           <li class="contacts__item">
-            <a class="link contacts__link" href="tel:+380961111111">
+            <a class="contacts__link" href="tel:+380961111111">
               <svg width="10" height="16" class="contacts__icon">
                 <use href="./images/icons.svg/symbol-defs.svg#icon-phone"></use>
               </svg>
@@ -53,26 +55,24 @@
         <div class="container">
           <h1 class="title title--visually-hidden">Приклади робiт</h1>
           <!-- h1 will be hidden with the help of css -->
-          <ul class="list sorter">
+          <ul class="sorter">
             <li class="sorter__item">
-              <button type="button" class="list-sorter__button list-sorter__button--active">
-                Усі
-              </button>
+              <button type="button" class="sorter__button sorter__button--active">Усі</button>
             </li>
             <li class="sorter__item">
-              <button type="button" class="list-sorter__button">Веб-сайти</button>
+              <button type="button" class="sorter__button">Веб-сайти</button>
             </li>
             <li class="sorter__item">
-              <button type="button" class="list-sorter__button">Додатки</button>
+              <button type="button" class="sorter__button">Додатки</button>
             </li>
             <li class="sorter__item">
-              <button type="button" class="list-sorter__button">Дизайн</button>
+              <button type="button" class="sorter__button">Дизайн</button>
             </li>
             <li class="sorter__item">
-              <button type="button" class="list-sorter__button">Маркетинг</button>
+              <button type="button" class="sorter__button">Маркетинг</button>
             </li>
           </ul>
-          <ul class="list card-list">
+          <ul class="card-list">
             <li class="card-list__item">
               <a href="" class="card">
                 <div class="card__thumb">
@@ -312,10 +312,10 @@
             ><span class="logo logo--blue">Web</span><span class="logo logo--white">Studio</span></a
           >
           <address class="address">
-            <ul class="list address__list">
+            <ul class="address__list">
               <li class="address__item">
                 <a
-                  class="link address__map"
+                  class="address__map"
                   href="https://goo.gl/maps/hFDBtTGMjcZhoMpHA"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
@@ -324,12 +324,10 @@
                 >
               </li>
               <li class="address__item">
-                <a class="link address__contact" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
+                <a class="address__contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
               <li class="address__item">
-                <a class="link address__contact" href="tel:+380991111111">+38 099 111 11 11</a>
+                <a class="address__contact" href="tel:+380991111111">+38 099 111 11 11</a>
               </li>
             </ul>
           </address>
@@ -337,30 +335,30 @@
 
         <div class="subscribtion">
           <p class="subscribtion__title">приєднуйтесь</p>
-          <ul class="list socials">
+          <ul class="socials">
             <li class="socials__item">
-              <a href="" class="link socials__link">
+              <a href="" class="socials__link">
                 <svg class="socials__icon">
                   <use href="./images/icons.svg/symbol-defs.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="socials__item">
-              <a href="" class="link socials__link">
+              <a href="" class="socials__link">
                 <svg class="socials__icon">
                   <use href="./images/icons.svg/symbol-defs.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="socials__item">
-              <a href="" class="link socials__link">
+              <a href="" class="socials__link">
                 <svg class="socials__icon">
                   <use href="./images/icons.svg/symbol-defs.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="socials__item">
-              <a href="" class="link socials__link">
+              <a href="" class="socials__link">
                 <svg class="socials__icon">
                   <use href="./images/icons.svg/symbol-defs.svg#icon-linkedin"></use>
                 </svg>

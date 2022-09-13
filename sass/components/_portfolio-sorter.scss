@@ -5,11 +5,12 @@
   margin-right: auto;
   margin-bottom: 34px;
   padding-left: 0;
+  @extend %list;
 }
 .sorter__item:not(:last-child) {
   margin-right: 8px;
 }
-.list-sorter__button {
+.sorter__button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -30,7 +31,7 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
-.list-sorter__button--active {
+.sorter__button--active {
   color: $main-light-color;
   background-color: $accent-color;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),

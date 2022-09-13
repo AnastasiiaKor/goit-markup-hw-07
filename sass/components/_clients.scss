@@ -8,6 +8,7 @@
 .clients__list {
   display: flex;
   gap: $list-gap;
+  @extend %list;
 }
 .clients__item {
   flex-basis: calc((100% - 150px) / 6);
@@ -16,6 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @extend %link;
   height: 92px;
   //   border: 1px solid #afb1b8;
   @include border(#afb1b8);
